@@ -1,0 +1,23 @@
+
+# Python 虛擬環境
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# 個人影片與分析結果
+uploads/
+*.mp4
+*.mov
+*.avi
+*.csv
+*.pdf
+
+# 暫存檔
+*_temp.mp4
+
+# 本機設定與機密
+.env
+.env.*
+!.env.example
+/pose_landmarker_lite.task
